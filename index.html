@@ -8,20 +8,32 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
- 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
   
 </head>
 
 <body onload = 'buttons()'>
     <div class = 'container'>
+      <h1 class = 'jumbotron'>Currency Converter</h1>
+      <div class = 'row center'>
+        <input id='fromAmount' placeholder ='Enter USD amount'>
+        <input id = 'toAmount'>
+        <p id = 'error'></p>
+      </div>
       
-      <input id='fromAmount' placeholder ='Enter USD amount'>
-      <button id = 'convertBtn' onclick="convert()">Convert</button>
-      <input id = 'toAmount'>
+
+      <div class = 'row'>
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src ='script.js'> </script>
+      </div>
       <a href="https://www.exchangerate-api.com">Currency Conversion by ExchangeRate-API.com</a>
-    </div>
-    <script src ='script.js'> </script>
+  </div>
+
 </body>
 
 
