@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.btn {
+    margin: 5px;
+}
+
+#toAmount {
+    margin-left: 5rem;
+}
+
+.container{
+    background-color: rgb(56, 146, 90);
+}
+
+.jumbotron{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    background-color: blueviolet;
+
+}
+
